@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "style.json"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c0947c7a8936b62ef5fdfd5edcef9bbc8cf9e01b5b618e775253b6749602869f",
+    "lastModification": {
+      "actor": "bensonh@opto22.com",
+      "timestamp": "2024-01-17T20:25:58Z"
+    }
+  }
+}
