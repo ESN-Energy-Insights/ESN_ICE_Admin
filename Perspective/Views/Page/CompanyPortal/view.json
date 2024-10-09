@@ -1,0 +1,1535 @@
+{
+  "custom": {
+    "companyDetails": [],
+    "companyUsers": [
+      {
+        "actions": "becca@energysystemsnetwork.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 13,
+        "lastlogin": "2024-10-02 11:02:57.135678-04",
+        "username": "becca@energysystemsnetwork.com"
+      },
+      {
+        "actions": "bensonh@opto22.com",
+        "companyid": "Opto22",
+        "fullname": "Benson Hougland",
+        "id": 9,
+        "lastlogin": "2024-07-08 14:05:23.809913-04",
+        "username": "bensonh@opto22.com"
+      },
+      {
+        "actions": "bjf@braemail.us",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 14,
+        "lastlogin": null,
+        "username": "bjf@braemail.us"
+      },
+      {
+        "actions": "bra@braemail.us",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 23,
+        "lastlogin": "2024-09-11 16:01:01.654253-04",
+        "username": "bra@braemail.us"
+      },
+      {
+        "actions": "bwm@braemail.us",
+        "companyid": "Opto22",
+        "fullname": "Brian McClain",
+        "id": 1,
+        "lastlogin": null,
+        "username": "bwm@braemail.us"
+      },
+      {
+        "actions": "carlos.rodriguez@martincsi.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 25,
+        "lastlogin": "2024-06-25 12:34:18.085304-04",
+        "username": "carlos.rodriguez@martincsi.com"
+      },
+      {
+        "actions": "daniel@axiomsystems.io",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 37,
+        "lastlogin": null,
+        "username": "daniel@axiomsystems.io"
+      },
+      {
+        "actions": "elizabeth@energysystemsnetwork.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 18,
+        "lastlogin": "2024-04-19 14:47:05.3437-04",
+        "username": "elizabeth@energysystemsnetwork.com"
+      },
+      {
+        "actions": "fnu.hafeez@lhpes.com",
+        "companyid": "Opto22",
+        "fullname": "Ahmed Hafeez",
+        "id": 29,
+        "lastlogin": "2024-09-23 13:07:23.575192-04",
+        "username": "fnu.hafeez@lhpes.com"
+      },
+      {
+        "actions": "jamie@brughindustrial.com",
+        "companyid": "Opto22",
+        "fullname": "Jamie Martin",
+        "id": 32,
+        "lastlogin": "2024-08-07 10:40:10.178113-04",
+        "username": "jamie@brughindustrial.com"
+      },
+      {
+        "actions": "jpiller@jpillerdc.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 35,
+        "lastlogin": null,
+        "username": "jpiller@jpillerdc.com"
+      },
+      {
+        "actions": "luke.rector@lhpes.com",
+        "companyid": "Opto22",
+        "fullname": "Luke Rector",
+        "id": 11,
+        "lastlogin": "2024-09-30 13:36:59.960923-04",
+        "username": "luke.rector@lhpes.com"
+      },
+      {
+        "actions": "mrc@braemail.us",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 22,
+        "lastlogin": "2024-09-13 14:00:53.287202-04",
+        "username": "mrc@braemail.us"
+      },
+      {
+        "actions": "pschreiber@circlebev.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 33,
+        "lastlogin": "2024-08-13 12:44:04.83698-04",
+        "username": "pschreiber@circlebev.com"
+      },
+      {
+        "actions": "rjm@braemail.us",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 21,
+        "lastlogin": "2024-06-07 15:31:51.198661-04",
+        "username": "rjm@braemail.us"
+      },
+      {
+        "actions": "Spencer@axiomsystems.io",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 36,
+        "lastlogin": null,
+        "username": "Spencer@axiomsystems.io"
+      },
+      {
+        "actions": "todd.ebright@martincsi.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 38,
+        "lastlogin": null,
+        "username": "todd.ebright@martincsi.com"
+      },
+      {
+        "actions": "travis@inductiveautomation.com",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 15,
+        "lastlogin": "2024-07-16 16:27:50.229999-04",
+        "username": "travis@inductiveautomation.com"
+      },
+      {
+        "actions": "wjg@braemail.us",
+        "companyid": "Opto22",
+        "fullname": null,
+        "id": 30,
+        "lastlogin": "2024-10-01 09:43:17.412986-04",
+        "username": "wjg@braemail.us"
+      },
+      {
+        "actions": "yuan.chao@lhpes.com",
+        "companyid": "Opto22",
+        "fullname": "Yuan Chao",
+        "id": 31,
+        "lastlogin": "2024-08-07 17:23:43.934955-04",
+        "username": "yuan.chao@lhpes.com"
+      }
+    ],
+    "edgeNodes": [
+      {
+        "energyLoads": [
+          [
+            {
+              "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor1",
+              "hasChildren": true,
+              "name": "Compressor1",
+              "tagType": "UdtInstance",
+              "typeId": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2",
+              "value": null
+            },
+            {
+              "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor2",
+              "hasChildren": true,
+              "name": "Compressor2",
+              "tagType": "UdtInstance",
+              "typeId": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2",
+              "value": null
+            },
+            {
+              "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/ServiceMeter",
+              "hasChildren": true,
+              "name": "ServiceMeter",
+              "tagType": "UdtInstance",
+              "typeId": "Energy Monitoring UDTs/RIO-KYZ-MQTT_v2",
+              "value": null
+            }
+          ]
+        ],
+        "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001",
+        "hasChildren": true,
+        "name": "EMK1-0001",
+        "tagType": "Folder"
+      }
+    ],
+    "key": [],
+    "securitySettings": {
+      "ACLs": "RW #",
+      "Id": 2,
+      "Password": "******",
+      "Username": "Opto22"
+    }
+  },
+  "params": {
+    "companyid": "Opto22"
+  },
+  "propConfig": {
+    "custom.companyDetails": {
+      "binding": {
+        "config": {
+          "parameters": {
+            "companyName": "{view.params.companyid}"
+          },
+          "queryPath": "CompanyDetails",
+          "returnFormat": "json"
+        },
+        "type": "query"
+      },
+      "persistent": true
+    },
+    "custom.companyUsers": {
+      "binding": {
+        "config": {
+          "parameters": {
+            "companyid": "{view.params.companyid}"
+          },
+          "queryPath": "CompanyUsers",
+          "returnFormat": "json"
+        },
+        "type": "query"
+      },
+      "persistent": true
+    },
+    "custom.edgeNodes": {
+      "binding": {
+        "config": {
+          "path": "view.params.companyid"
+        },
+        "transforms": [
+          {
+            "code": "\tresults \u003d system.tag.browse(\"[MQTT Engine]Edge Nodes/\" + value)\n\t\n\tfinal \u003d []\n\tfor node in results:\n\t\tif node[\"hasChildren\"]:\n\t\t\tnode[\"energyLoads\"] \u003d [system.tag.browse(str(node[\"fullPath\"]) + \"/Energy/Loads\")]\n\t\t\n\t\tfinal.append(node)\n\treturn final",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "custom.securitySettings": {
+      "binding": {
+        "config": {
+          "path": "view.params.companyid"
+        },
+        "transforms": [
+          {
+            "code": "\t\n\t\n\t\n\tusrs \u003d system.cirruslink.distributor.readConfig(\"Users\")\n\tretValue \u003d []\n\tfor u in usrs:\n\t\tif u[\u0027Username\u0027] \u003d\u003d value:\n\t\t\tretValue \u003d u\n\treturn retValue",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "params.companyid": {
+      "paramDirection": "inout",
+      "persistent": true
+    },
+    "params.feature": {
+      "paramDirection": "input"
+    },
+    "params.tier1": {
+      "paramDirection": "input"
+    },
+    "params.tier2": {
+      "paramDirection": "input"
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 813,
+      "width": 1347
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Title"
+        },
+        "position": {
+          "basis": "56px",
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "icon": "apartment",
+            "text": "Company Portal"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Description"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "Page/Text Page/Margins"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "events": {
+                  "component": {
+                    "onActionPerformed": {
+                      "config": {
+                        "script": "\tsystem.perspective.navigate(\"/company-portal/\" + str(self.props.value))"
+                      },
+                      "scope": "G",
+                      "type": "script"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "drpCompany"
+                },
+                "position": {
+                  "basis": "40%"
+                },
+                "propConfig": {
+                  "props.options": {
+                    "binding": {
+                      "config": {
+                        "enableValueCache": false,
+                        "queryPath": "CompanyDropdown",
+                        "returnFormat": "json"
+                      },
+                      "type": "query"
+                    }
+                  },
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "path": "view.params.companyid"
+                      },
+                      "overlayOptOut": true,
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "dropdownOptionStyle": {
+                    "fontSize": 14,
+                    "fontWeight": "bold"
+                  },
+                  "placeholder": {
+                    "text": "Select a Company..."
+                  },
+                  "style": {
+                    "fontSize": 14,
+                    "fontWeight": "bold"
+                  }
+                },
+                "type": "ia.input.dropdown"
+              },
+              {
+                "events": {
+                  "dom": {
+                    "onClick": {
+                      "config": {
+                        "draggable": false,
+                        "id": "deleteCompanyPopup",
+                        "modal": true,
+                        "overlayDismiss": false,
+                        "resizable": false,
+                        "showCloseIcon": false,
+                        "type": "open",
+                        "viewParams": {
+                          "companyName": "{view.custom.companyName}",
+                          "companyid": "{view.custom.companyName}"
+                        },
+                        "viewPath": "Popups/DeleteCompany",
+                        "viewportBound": false
+                      },
+                      "scope": "C",
+                      "type": "popup"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "btnDeleteCompany"
+                },
+                "position": {
+                  "basis": "224px"
+                },
+                "props": {
+                  "primary": false,
+                  "style": {
+                    "backgroundColor": "#FF8A8A",
+                    "color": "#FFFFFF"
+                  },
+                  "text": "Delete Company"
+                },
+                "type": "ia.input.button"
+              }
+            ],
+            "meta": {
+              "name": "Top"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "props": {
+              "justify": "space-between",
+              "style": {
+                "margin": 20,
+                "marginBottom": 0
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Devices"
+                    },
+                    "position": {
+                      "grow": 1
+                    },
+                    "propConfig": {
+                      "props.instances": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.edgeNodes"
+                          },
+                          "transforms": [
+                            {
+                              "code": "\tdevices \u003d []\n\t\n\tfor key in value:\n\t\tdevices.append({\"path\":key.fullPath})\n\treturn value",
+                              "type": "script"
+                            }
+                          ],
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "alignContent": "center",
+                      "direction": "column",
+                      "elementPosition": {
+                        "basis": "auto",
+                        "grow": 0
+                      },
+                      "path": "Templates/NodeCard",
+                      "style": {
+                        "margin": 10
+                      },
+                      "useDefaultViewWidth": false
+                    },
+                    "type": "ia.display.flex-repeater"
+                  }
+                ],
+                "meta": {
+                  "name": "General"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "events": {
+                          "dom": {
+                            "onClick": {
+                              "config": {
+                                "draggable": false,
+                                "id": "addEditCompanyUser",
+                                "modal": true,
+                                "overlayDismiss": false,
+                                "resizable": false,
+                                "showCloseIcon": false,
+                                "type": "open",
+                                "viewParams": {
+                                  "companyName": "{view.params.companyid}"
+                                },
+                                "viewPath": "Popups/AddEditCompanyUser",
+                                "viewportBound": false
+                              },
+                              "scope": "C",
+                              "type": "popup"
+                            }
+                          }
+                        },
+                        "meta": {
+                          "name": "btnAdd"
+                        },
+                        "position": {
+                          "basis": "224px"
+                        },
+                        "props": {
+                          "primary": false,
+                          "style": {
+                            "backgroundColor": "#000F5D",
+                            "color": "#FFFFFF"
+                          },
+                          "text": "Add Company User"
+                        },
+                        "type": "ia.input.button"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Actions"
+                    },
+                    "position": {
+                      "basis": "50px"
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "expression": "{view.params.companyid} !\u003d None \u0026\u0026 {view.params.companyid} !\u003d \"\""
+                          },
+                          "type": "expr"
+                        }
+                      }
+                    },
+                    "props": {
+                      "justify": "space-between",
+                      "style": {
+                        "margin": 20,
+                        "marginBottom": 0
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Table"
+                        },
+                        "position": {
+                          "basis": "400px",
+                          "grow": 1
+                        },
+                        "propConfig": {
+                          "props.data": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.companyUsers"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "cells": {
+                            "style": {
+                              "padding": 5
+                            }
+                          },
+                          "columns": [
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY",
+                              "editable": false,
+                              "field": "username",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": "Email"
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "auto",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {},
+                              "viewPath": "",
+                              "visible": true,
+                              "width": ""
+                            },
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY",
+                              "editable": false,
+                              "field": "fullname",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": "Name"
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "auto",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {},
+                              "viewPath": "",
+                              "visible": true,
+                              "width": ""
+                            },
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY h:mm:ss a",
+                              "editable": false,
+                              "field": "lastlogin",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": "Last Login"
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "date",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {},
+                              "viewPath": "",
+                              "visible": true,
+                              "width": ""
+                            },
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY",
+                              "editable": false,
+                              "field": "companyid",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "auto",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {
+                                "companyid": "",
+                                "username": ""
+                              },
+                              "viewPath": "",
+                              "visible": true,
+                              "width": ""
+                            },
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY",
+                              "editable": false,
+                              "field": "actions",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": "Actions"
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "view",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {},
+                              "viewPath": "Templates/Elements/CompanyUserActions",
+                              "visible": true,
+                              "width": ""
+                            },
+                            {
+                              "align": "center",
+                              "boolean": "checkbox",
+                              "dateFormat": "MM/DD/YYYY",
+                              "editable": false,
+                              "field": "id",
+                              "filter": {
+                                "boolean": {
+                                  "condition": ""
+                                },
+                                "date": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "enabled": false,
+                                "number": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "string": {
+                                  "condition": "",
+                                  "value": ""
+                                },
+                                "visible": "on-hover"
+                              },
+                              "footer": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "header": {
+                                "align": "center",
+                                "justify": "left",
+                                "style": {
+                                  "classes": ""
+                                },
+                                "title": ""
+                              },
+                              "justify": "auto",
+                              "nullFormat": {
+                                "includeNullStrings": false,
+                                "nullFormatValue": "",
+                                "strict": false
+                              },
+                              "number": "value",
+                              "numberFormat": "0,0.##",
+                              "progressBar": {
+                                "bar": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "max": 100,
+                                "min": 0,
+                                "track": {
+                                  "color": "",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                },
+                                "value": {
+                                  "enabled": true,
+                                  "format": "0,0.##",
+                                  "justify": "center",
+                                  "style": {
+                                    "classes": ""
+                                  }
+                                }
+                              },
+                              "render": "auto",
+                              "resizable": true,
+                              "sort": "none",
+                              "sortable": true,
+                              "strictWidth": false,
+                              "style": {
+                                "classes": ""
+                              },
+                              "toggleSwitch": {
+                                "color": {
+                                  "selected": "",
+                                  "unselected": ""
+                                }
+                              },
+                              "viewParams": {},
+                              "viewPath": "",
+                              "visible": false,
+                              "width": ""
+                            }
+                          ],
+                          "rows": {
+                            "height": 40,
+                            "style": {
+                              "fontSize": 14,
+                              "fontWeight": "bold"
+                            }
+                          },
+                          "style": {
+                            "margin": 20
+                          }
+                        },
+                        "type": "ia.display.table"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Content"
+                    },
+                    "position": {
+                      "basis": "200px",
+                      "grow": 1
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "expression": "{view.params.companyid} !\u003d None \u0026\u0026 {view.params.companyid} !\u003d \"\""
+                          },
+                          "type": "expr"
+                        }
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "Users"
+                },
+                "position": {
+                  "tabIndex": 1
+                },
+                "props": {
+                  "direction": "column"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "CompanyName"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.originalValue": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.companyDetails[0].company_name"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      },
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.companyDetails[0].company_name"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "label": "Company Display Name",
+                        "subText": "Display name for the company"
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Namespace"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.originalValue": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.companyDetails[0].mqtt_topic"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      },
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.companyDetails[0].mqtt_topic"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "enabled": false,
+                        "label": "MQTT Namespace",
+                        "subText": "MQTT topic name"
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Username"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.originalValue": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.securitySettings.Username"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      },
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.securitySettings.Username"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "enabled": false,
+                        "label": "MQTT Username",
+                        "subText": "MQTT Username to use during connection establishment"
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "ChangePassword"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "props": {
+                      "params": {
+                        "label": "Change Password?",
+                        "subText": "Check this box to change the existing password.",
+                        "type": "checkbox",
+                        "value": false
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Password"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.enabled": {
+                        "binding": {
+                          "config": {
+                            "path": "../ChangePassword.props.params.value"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "label": "MQTT Password",
+                        "originalValue": "Opto22",
+                        "subText": "MQTT Password to use during connection establishment",
+                        "type": "password",
+                        "value": "Opto22"
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "PasswordConfirm"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.enabled": {
+                        "binding": {
+                          "config": {
+                            "path": "../ChangePassword.props.params.value"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "label": "MQTT Password",
+                        "subText": "Re-type password for verification.",
+                        "type": "password",
+                        "value": ""
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "ACLs"
+                    },
+                    "position": {
+                      "basis": "75px"
+                    },
+                    "propConfig": {
+                      "props.params.originalValue": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.securitySettings.ACLs"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      },
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.securitySettings.ACLs"
+                          },
+                          "overlayOptOut": true,
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "enabled": false,
+                        "label": "MQTT ACLs",
+                        "subText": "Comma separated list of permissions associated with this user of the form [RW topic],[RW topic]..."
+                      },
+                      "path": "Templates/Elements/SettingsRow"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "children": [
+                      {
+                        "events": {
+                          "dom": {
+                            "onClick": {
+                              "config": {
+                                "script": "\tcompanyid \u003d self.view.params.companyid\n\tmqttSettings \u003d {\"Username\": self.parent.parent.getChild(\"Username\").props.params.value,\"Password\": self.parent.parent.getChild(\"Password\").props.params.value,\"ACLs\":self.parent.parent.getChild(\"ACLs\").props.params.value}\n\n\t\n\t# Company Name\n\tif self.parent.parent.getChild(\"CompanyName\").props.params.value !\u003d self.parent.parent.getChild(\"CompanyName\").props.params.originalValue:\n\t\tESN.changeCompanyDisplayName(companyid,self.parent.parent.getChild(\"CompanyName\").props.params.value)\n\t\tself.parent.parent.getChild(\"CompanyName\").props.params.originalValue \u003d self.parent.parent.getChild(\"CompanyName\").props.params.value\n\t\n\t#MQTT Distributor\n\tif self.parent.parent.getChild(\"ChangePassword\").props.params.value \u003d\u003d True:\n\t\tif self.parent.parent.getChild(\"Password\").props.params.value \u003d\u003d self.parent.parent.getChild(\"PasswordConfirm\").props.params.value and self.parent.parent.getChild(\"Password\").props.params.value !\u003d \"\":\n\n\t\t\tESN.updateCompanyMQTTSettings(companyid,mqttSettings,True)\n\t\n\tif self.parent.parent.getChild(\"ACLs\").props.params.value !\u003d self.parent.parent.getChild(\"ACLs\").props.params.originalValue and self.parent.parent.getChild(\"ChangePassword\").props.params.value \u003d\u003d False:\n\t\tESN.updateCompanyMQTTSettings(companyid,mqttSettings,False)\n\t\tself.parent.parent.getChild(\"ACLs\").props.params.originalValue \u003d self.parent.parent.getChild(\"ACLs\").props.params.value\n\t\n\t\n\t### REFRESH DATA\n\tid \u003d self.view.params.companyid\n\tself.view.params.companyid \u003d None\n\tself.view.params.companyid \u003d id \n\tself.parent.parent.parent.parent.getChild(\"Top\").getChild(\"drpCompany\").refreshBinding(\u0027props.options\u0027)\n\tself.parent.parent.getChild(\"ChangePassword\").props.params.value \u003d False\n\tself.parent.parent.getChild(\"Password\").props.params.value \u003d \u0027\u0027\n\tself.parent.parent.getChild(\"PasswordConfirm\").props.params.value \u003d \u0027\u0027\n"
+                              },
+                              "scope": "G",
+                              "type": "script"
+                            }
+                          }
+                        },
+                        "meta": {
+                          "name": "btnSaveChanges"
+                        },
+                        "position": {
+                          "basis": "150px"
+                        },
+                        "props": {
+                          "text": "Save Changes"
+                        },
+                        "type": "ia.input.button"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Actions"
+                    },
+                    "position": {
+                      "basis": "50px"
+                    },
+                    "props": {
+                      "justify": "center",
+                      "style": {
+                        "marginTop": 15
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "Settings"
+                },
+                "position": {
+                  "tabIndex": 2
+                },
+                "props": {
+                  "direction": "column"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "TabContainer"
+            },
+            "position": {
+              "basis": "300px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.tabs[1]": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.companyUsers"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \u0027Users - \u0027 + str(len(value))",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "currentTabIndex": 1,
+              "menuType": "modern",
+              "style": {
+                "margin": 20
+              },
+              "tabs": [
+                "MQTT Status",
+                null,
+                "Settings"
+              ]
+            },
+            "type": "ia.container.tab"
+          }
+        ],
+        "meta": {
+          "name": "Body"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Page/Page"
+      }
+    },
+    "scripts": {
+      "customMethods": [],
+      "extensionFunctions": null,
+      "messageHandlers": [
+        {
+          "messageType": "refreshData",
+          "pageScope": true,
+          "script": "\t# implement your handler here\n\n\t#system.perspective.navigate(\"/\")\n\tself.getChild(\"Body\").getChild(\"TabContainer\").getChild(\"Users\").getChild(\"Content\").getChild(\"Table\").refreshBinding(\u0027props.data\u0027)\n\n\n",
+          "sessionScope": false,
+          "viewScope": false
+        }
+      ]
+    },
+    "type": "ia.container.flex"
+  }
+}

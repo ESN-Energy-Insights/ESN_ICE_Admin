@@ -1,0 +1,423 @@
+{
+  "custom": {},
+  "params": {
+    "fullPath": "value"
+  },
+  "propConfig": {
+    "params.fullPath": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 302,
+      "width": 473
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Spacer"
+                },
+                "position": {
+                  "basis": "40px"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": 50,
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "path": "view.params.fullPath"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tpath \u003d value.split(\u0027/\u0027)\n\treturn path[len(path)-1]",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "backgroundColor": "#808080",
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "textAlign": "center"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "events": {
+                  "dom": {
+                    "onClick": {
+                      "config": {
+                        "draggable": false,
+                        "id": "nodeInfoPopup",
+                        "modal": true,
+                        "overlayDismiss": false,
+                        "resizable": false,
+                        "showCloseIcon": true,
+                        "type": "close",
+                        "viewParams": {
+                          "fullPath": "{view.params.fullPath}"
+                        },
+                        "viewPath": "Popups/NodeInfo",
+                        "viewportBound": false
+                      },
+                      "scope": "C",
+                      "type": "popup"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "btnClose",
+                  "tooltip": {
+                    "enabled": true,
+                    "text": "Node Info"
+                  }
+                },
+                "position": {
+                  "basis": "40px"
+                },
+                "props": {
+                  "image": {
+                    "icon": {
+                      "path": "material/close"
+                    }
+                  },
+                  "primary": false,
+                  "style": {
+                    "backgroundColor": "#FFFFFF00",
+                    "borderStyle": "none",
+                    "color": "#FFFFFF",
+                    "margin": 5
+                  },
+                  "text": ""
+                },
+                "type": "ia.input.button"
+              }
+            ],
+            "meta": {
+              "name": "Header"
+            },
+            "position": {
+              "basis": 40
+            },
+            "props": {
+              "style": {
+                "backgroundColor": "#808080"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Info1"
+                },
+                "position": {
+                  "basis": 50
+                },
+                "propConfig": {
+                  "props.params.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "fullPath": "{view.params.fullPath}"
+                        },
+                        "tagPath": "{fullPath}/Node Info/Current Server"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "params": {
+                    "label": "Current Server"
+                  },
+                  "path": "Templates/Elements/InfoElement",
+                  "style": {
+                    "marginBottom": 5,
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "meta": {
+                  "name": "Info2"
+                },
+                "position": {
+                  "basis": 50
+                },
+                "propConfig": {
+                  "props.params.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "fullPath": "{view.params.fullPath}"
+                        },
+                        "tagPath": "{fullPath}/Node Info/Message Schema"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "params": {
+                    "label": "Message Schema"
+                  },
+                  "path": "Templates/Elements/InfoElement",
+                  "style": {
+                    "marginBottom": 5,
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "meta": {
+                  "name": "Info3"
+                },
+                "position": {
+                  "basis": 50
+                },
+                "propConfig": {
+                  "props.params.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "fullPath": "{view.params.fullPath}"
+                        },
+                        "tagPath": "{fullPath}/Node Info/Transmission Version"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "params": {
+                    "label": "Transmission Ver"
+                  },
+                  "path": "Templates/Elements/InfoElement",
+                  "style": {
+                    "marginBottom": 5,
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "meta": {
+                  "name": "Info4"
+                },
+                "position": {
+                  "basis": 50
+                },
+                "propConfig": {
+                  "props.params.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "fullPath": "{view.params.fullPath}"
+                        },
+                        "tagPath": "{fullPath}/Node Info/Total Bytes Recvd"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tval \u003d value / 1000\n\t\n\treturn \"{:,.0f} KB\".format(val)",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "params": {
+                    "label": "Data Received"
+                  },
+                  "path": "Templates/Elements/InfoElement",
+                  "style": {
+                    "marginBottom": 5,
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Info4"
+                    },
+                    "position": {
+                      "basis": "50%"
+                    },
+                    "propConfig": {
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "fallbackDelay": 2.5,
+                            "mode": "indirect",
+                            "references": {
+                              "fullPath": "{view.params.fullPath}"
+                            },
+                            "tagPath": "{fullPath}/Energy/Device Info/Data Message Count"
+                          },
+                          "transforms": [
+                            {
+                              "code": "\t\n\treturn \"{:,.0f}\".format(value)",
+                              "type": "script"
+                            }
+                          ],
+                          "type": "tag"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "label": "Message Count"
+                      },
+                      "path": "Templates/Elements/InfoElementWidget",
+                      "style": {
+                        "marginRight": 5,
+                        "overflow": "visible"
+                      }
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Info5"
+                    },
+                    "position": {
+                      "basis": "50%"
+                    },
+                    "propConfig": {
+                      "props.params.value": {
+                        "binding": {
+                          "config": {
+                            "fallbackDelay": 2.5,
+                            "mode": "indirect",
+                            "references": {
+                              "fullPath": "{view.params.fullPath}"
+                            },
+                            "tagPath": "{fullPath}/Node Info/Data Latency"
+                          },
+                          "transforms": [
+                            {
+                              "code": "\t\n\treturn \"{:,.0f}\".format(value)",
+                              "type": "script"
+                            }
+                          ],
+                          "type": "tag"
+                        }
+                      }
+                    },
+                    "props": {
+                      "params": {
+                        "label": "Data Latency"
+                      },
+                      "path": "Templates/Elements/InfoElementWidget",
+                      "style": {
+                        "marginLeft": 5,
+                        "overflow": "visible"
+                      }
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "KPIs"
+                },
+                "position": {
+                  "basis": 160,
+                  "grow": 1
+                },
+                "props": {
+                  "style": {
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Body"
+            },
+            "position": {
+              "basis": "200px",
+              "grow": 1
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "marginBottom": 5,
+                "marginLeft": 5,
+                "marginRight": 5,
+                "padding": 5
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "NodeInfo"
+        },
+        "position": {
+          "basis": "300px"
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderColor": "#808080",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "borderWidth": 2,
+            "overflow": "visible"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

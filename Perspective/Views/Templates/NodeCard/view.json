@@ -1,0 +1,780 @@
+{
+  "custom": {
+    "Loads": [
+      {
+        "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor1",
+        "typeId": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2"
+      },
+      {
+        "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor2",
+        "typeId": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2"
+      },
+      {
+        "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/ServiceMeter",
+        "typeId": "Energy Monitoring UDTs/RIO-KYZ-MQTT_v2"
+      }
+    ],
+    "Node Info": [
+      {
+        "Energy": {
+          "Device Control": {
+            "Rebirth": false
+          },
+          "Device Info": {
+            "Birth Count": 15,
+            "Data Message Count": 497810,
+            "Death Count": 0,
+            "Last Command Size": 0,
+            "Last Data Message Size": 686,
+            "Offline DateTime": 1708991999548,
+            "Online": true,
+            "Online DateTime": 1708992003332,
+            "Reset Info": false
+          },
+          "Gateway": {
+            "EMK1-0001": {
+              "Cirrus Link Modules": {
+                "MQTT Distributor Clients": 7,
+                "MQTT Engine Node Count": 5,
+                "MQTT Engine Version": "4.0.18 (b2023081122)",
+                "MQTT Transmission Version": "4.0.18 (b2023081122)"
+              },
+              "Edge Device Data": {
+                "CPU Usage": 9.137056,
+                "Memory Utilization": 47.059566,
+                "Name": "Ignition-EMK1-0001",
+                "Timezone": "America/Los_Angeles",
+                "UptimeSeconds": 10259013
+              }
+            }
+          },
+          "Loads": {
+            "Compressor1": {
+              "EMUData": {
+                "PhaseA": {
+                  "Energy": {
+                    "PhA_ApparentEnergy_kVAh": 6102.9595,
+                    "PhA_NegativeEnergy_kWh": -0.252131,
+                    "PhA_NetEnergy_kWh": 4378.4214,
+                    "PhA_NetReactiveEnergy_kVArh": 3888.316,
+                    "PhA_PositiveEnergy_kWh": 4378.66
+                  },
+                  "Power": {
+                    "PhA_ApparentPower_VA": 0,
+                    "PhA_AvgReactivePower_VAr": 0,
+                    "PhA_Current_Arms": 0,
+                    "PhA_Frequency_Hz": 59.999943,
+                    "PhA_HarmonicTruePower_W": 0,
+                    "PhA_PeakCurrent_A": 2.8103197,
+                    "PhA_PeakVoltage_V": 411.14264,
+                    "PhA_PowerFactor": 0,
+                    "PhA_ReactivePowerFF_VAr": 0,
+                    "PhA_ReactivePower_VAr": 0,
+                    "PhA_TruePowerFF_W": 0,
+                    "PhA_TruePower_W": 0,
+                    "PhA_Voltage_Vrms": 282.9025
+                  }
+                },
+                "PhaseB": {
+                  "Energy": {
+                    "PhB_ApparentEnergy_kVAh": 5968.0513,
+                    "PhB_NegativeEnergy_kWh": -0.345084,
+                    "PhB_NetEnergy_kWh": 4325.723,
+                    "PhB_NetReactiveEnergy_kVArh": 3685.1277,
+                    "PhB_PositiveEnergy_kWh": 4326.0684
+                  },
+                  "Power": {
+                    "PhB_ApparentPower_VA": 0,
+                    "PhB_AvgReactivePower_VAr": 0,
+                    "PhB_Current_Arms": 0,
+                    "PhB_Frequency_Hz": 59.999943,
+                    "PhB_HarmonicTruePower_W": 0,
+                    "PhB_PeakCurrent_A": -2.206882,
+                    "PhB_PeakVoltage_V": 409.71393,
+                    "PhB_PowerFactor": 0,
+                    "PhB_ReactivePowerFF_VAr": 0,
+                    "PhB_ReactivePower_VAr": 0,
+                    "PhB_TruePowerFF_W": 0,
+                    "PhB_TruePower_W": 0,
+                    "PhB_Voltage_Vrms": 285.33185
+                  }
+                },
+                "PhaseC": {
+                  "Energy": {
+                    "PhC_ApparentEnergy_kVAh": 6085.7646,
+                    "PhC_NegativeEnergy_kWh": -0.000041,
+                    "PhC_NetEnergy_kWh": 4494.522,
+                    "PhC_NetReactiveEnergy_kVArh": 3774.9614,
+                    "PhC_PositiveEnergy_kWh": 4494.522
+                  },
+                  "Power": {
+                    "PhC_ApparentPower_VA": 0,
+                    "PhC_AvgReactivePower_VAr": 0,
+                    "PhC_Current_Arms": 0,
+                    "PhC_Frequency_Hz": 59.999943,
+                    "PhC_HarmonicTruePower_W": 0,
+                    "PhC_PeakCurrent_A": 2.1034083,
+                    "PhC_PeakVoltage_V": -409.00403,
+                    "PhC_PowerFactor": 0,
+                    "PhC_ReactivePowerFF_VAr": 0,
+                    "PhC_ReactivePower_VAr": 0,
+                    "PhC_TruePowerFF_W": 0,
+                    "PhC_TruePower_W": 0,
+                    "PhC_Voltage_Vrms": 283.09753
+                  }
+                },
+                "Totals": {
+                  "Energy": {
+                    "Intervals": {
+                      "Total_kWh_15min_marker": 18157.475,
+                      "Total_kWh_Current_15min_Interval": 0,
+                      "Total_kWh_Timer": 0
+                    },
+                    "Total_NegativeEnergy_kWh": -0.597257,
+                    "Total_NetApparentEnergy_kWh": 18157.475,
+                    "Total_NetEnergy_kWh": 13199.691,
+                    "Total_NetReactiveEnergy_kVArh": 11348.538,
+                    "Total_PositiveEnergy_kWh": 13200.084,
+                    "Total_UnsignedEnergy_kWh": 13202.708
+                  },
+                  "Power": {
+                    "Intervals": {
+                      "Total_VA_15min_Demand": 0,
+                      "Total_VA_15min_Marker": 0,
+                      "Total_VA_Timer": 1
+                    },
+                    "Total_ApparentPower_VA": 0,
+                    "Total_PowerFactor": 0,
+                    "Total_ReactivePower_VAr": 0,
+                    "Total_TruePower_W": 0
+                  }
+                }
+              },
+              "EMUProperties": {
+                "Firmware Version": "R3.5a",
+                "Hardware Part Number": "GRV-R7-I1VAPM-3; 04/13/2020",
+                "Hardware Vendor": "Opto 22",
+                "Offline DateTime": "2024-01-31 09:45:44.520",
+                "Online": true,
+                "Online DateTime": "2024-02-23 11:50:23.301"
+              }
+            },
+            "Compressor2": {
+              "EMUData": {
+                "PhaseA": {
+                  "Energy": {
+                    "PhA_ApparentEnergy_kVAh": 6397.3027,
+                    "PhA_NegativeEnergy_kWh": -0.829373,
+                    "PhA_NetEnergy_kWh": 4665.3726,
+                    "PhA_NetReactiveEnergy_kVArh": 3786.8167,
+                    "PhA_PositiveEnergy_kWh": 4666.1875
+                  },
+                  "Power": {
+                    "PhA_ApparentPower_VA": 0,
+                    "PhA_AvgReactivePower_VAr": 0,
+                    "PhA_Current_Arms": 0,
+                    "PhA_Frequency_Hz": 59.999943,
+                    "PhA_HarmonicTruePower_W": 0,
+                    "PhA_PeakCurrent_A": -2.0407243,
+                    "PhA_PeakVoltage_V": 413.31787,
+                    "PhA_PowerFactor": 0,
+                    "PhA_ReactivePowerFF_VAr": 0,
+                    "PhA_ReactivePower_VAr": 0,
+                    "PhA_TruePowerFF_W": 0,
+                    "PhA_TruePower_W": 0,
+                    "PhA_Voltage_Vrms": 284.88464
+                  }
+                },
+                "PhaseB": {
+                  "Energy": {
+                    "PhB_ApparentEnergy_kVAh": 5868.9946,
+                    "PhB_NegativeEnergy_kWh": -1.02842,
+                    "PhB_NetEnergy_kWh": 4477.1147,
+                    "PhB_NetReactiveEnergy_kVArh": 3294.1138,
+                    "PhB_PositiveEnergy_kWh": 4478.1304
+                  },
+                  "Power": {
+                    "PhB_ApparentPower_VA": 0,
+                    "PhB_AvgReactivePower_VAr": 0,
+                    "PhB_Current_Arms": 0,
+                    "PhB_Frequency_Hz": 59.999943,
+                    "PhB_HarmonicTruePower_W": 0,
+                    "PhB_PeakCurrent_A": -3.7231054,
+                    "PhB_PeakVoltage_V": 409.9963,
+                    "PhB_PowerFactor": 0,
+                    "PhB_ReactivePowerFF_VAr": 0,
+                    "PhB_ReactivePower_VAr": 0,
+                    "PhB_TruePowerFF_W": 0,
+                    "PhB_TruePower_W": 0,
+                    "PhB_Voltage_Vrms": 283.31592
+                  }
+                },
+                "PhaseC": {
+                  "Energy": {
+                    "PhC_ApparentEnergy_kVAh": 5913.0664,
+                    "PhC_NegativeEnergy_kWh": -0.946518,
+                    "PhC_NetEnergy_kWh": 4672.3613,
+                    "PhC_NetReactiveEnergy_kVArh": 3177.628,
+                    "PhC_PositiveEnergy_kWh": 4673.285
+                  },
+                  "Power": {
+                    "PhC_ApparentPower_VA": 0,
+                    "PhC_AvgReactivePower_VAr": 0,
+                    "PhC_Current_Arms": 0,
+                    "PhC_Frequency_Hz": 59.944153,
+                    "PhC_HarmonicTruePower_W": 0,
+                    "PhC_PeakCurrent_A": -1.6328893,
+                    "PhC_PeakVoltage_V": -409.2346,
+                    "PhC_PowerFactor": 0,
+                    "PhC_ReactivePowerFF_VAr": 0,
+                    "PhC_ReactivePower_VAr": 0,
+                    "PhC_TruePowerFF_W": 0,
+                    "PhC_TruePower_W": 0,
+                    "PhC_Voltage_Vrms": 283.01825
+                  }
+                },
+                "Totals": {
+                  "Energy": {
+                    "Intervals": {
+                      "Total_kWh_15min_marker": 18179.79,
+                      "Total_kWh_Current_15min_Interval": 0,
+                      "Total_kWh_Timer": 0
+                    },
+                    "Total_NegativeEnergy_kWh": -2.804315,
+                    "Total_NetApparentEnergy_kWh": 18179.79,
+                    "Total_NetEnergy_kWh": 13815.71,
+                    "Total_NetReactiveEnergy_kVArh": 10259.29,
+                    "Total_PositiveEnergy_kWh": 13818.515,
+                    "Total_UnsignedEnergy_kWh": 13827.501
+                  },
+                  "Power": {
+                    "Intervals": {
+                      "Total_VA_15min_Demand": 0,
+                      "Total_VA_15min_Marker": 0,
+                      "Total_VA_Timer": 1
+                    },
+                    "Total_ApparentPower_VA": 0,
+                    "Total_PowerFactor": 0,
+                    "Total_ReactivePower_VAr": 0,
+                    "Total_TruePower_W": 0
+                  }
+                }
+              },
+              "EMUProperties": {
+                "Firmware Version": "R3.5a",
+                "Hardware Part Number": "GRV-R7-I1VAPM-3; 04/13/2020",
+                "Hardware Vendor": "Opto 22",
+                "Offline DateTime": "2024-01-31 09:45:51.318",
+                "Online": true,
+                "Online DateTime": "2024-02-26 12:53:39.014"
+              }
+            },
+            "ServiceMeter": {
+              "KYZConfiguration": {
+                "KYZ-Pulse-Calculation": 0.6,
+                "KYZ-Pulse-Parameter": 0.6
+              },
+              "KYZData": {
+                "KW": 79.75385,
+                "KWh": 386113.4,
+                "KWh15m": 16.70426,
+                "KWh24h": 3142.4304
+              },
+              "KYZProperties": {
+                "Firmware Version": "R3.5a",
+                "Hardware Make": "Opto 22",
+                "Offline DateTime": "2024-01-31 09:45:51.318",
+                "Online": true,
+                "Online DateTime": "2024-01-31 09:47:50.421",
+                "Part Number": "GRV-R7-MM1001-10; 04/13/2020",
+                "Software Version": "2.1.1"
+              }
+            }
+          }
+        },
+        "Node Control": {
+          "Next Server": false,
+          "Rebirth": false
+        },
+        "Node Info": {
+          "Birth Count": 15,
+          "Current Server": "Chariot SCADA",
+          "Data Latency": 39,
+          "Death Count": 2,
+          "Message Schema": "Sparkplug B v1.0",
+          "Offline DateTime": 1708991999550,
+          "Online": true,
+          "Online DateTime": 1708992003283,
+          "Reset Info": false,
+          "Total Bytes Recvd": 318700000,
+          "Total Bytes Xmit": 0,
+          "Transmission Version": "4.0.18 (b2023081122)",
+          "bdSeq": 32,
+          "seq": 69
+        }
+      }
+    ],
+    "Online": true,
+    "isCollapsed": false
+  },
+  "params": {
+    "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001"
+  },
+  "propConfig": {
+    "custom.Loads": {
+      "binding": {
+        "config": {
+          "path": "view.params.fullPath"
+        },
+        "transforms": [
+          {
+            "code": "\n\tresults \u003d system.tag.browse(value + \"/Energy/Loads\")\n\n\tfinal \u003d []\n\tfor d in results:\n\t\tdevice \u003d {\"fullPath\":d[\u0027fullPath\u0027],\"typeId\":d[\u0027typeId\u0027]}\n\t\tfinal.append(device)\n\treturn final",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "custom.Online": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "indirect",
+          "references": {
+            "fullPath": "{view.params.fullPath}"
+          },
+          "tagPath": "{fullPath}/Node Info/Online"
+        },
+        "type": "tag"
+      },
+      "persistent": true
+    },
+    "custom.isCollapsed": {
+      "persistent": true
+    },
+    "custom[\u0027Node Info\u0027]": {
+      "binding": {
+        "config": {
+          "path": "view.params.fullPath"
+        },
+        "transforms": [
+          {
+            "code": "\treturn system.tag.readBlocking(value + \".jsonValues\")",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "params.fullPath": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": "auto",
+      "width": 804
+    },
+    "dropConfig": {
+      "udts": [
+        {
+          "action": "path",
+          "param": "path",
+          "type": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2"
+        }
+      ]
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "draggable": false,
+                    "id": "nodeInfoPopup",
+                    "modal": true,
+                    "overlayDismiss": false,
+                    "resizable": false,
+                    "showCloseIcon": false,
+                    "type": "open",
+                    "viewParams": {
+                      "fullPath": "{view.params.fullPath}"
+                    },
+                    "viewPath": "Popups/NodeInfo",
+                    "viewportBound": false
+                  },
+                  "scope": "C",
+                  "type": "popup"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnInfo",
+              "tooltip": {
+                "enabled": true,
+                "text": "Node Info"
+              }
+            },
+            "position": {
+              "basis": "60px"
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "path": "material/info"
+                }
+              },
+              "primary": false,
+              "style": {
+                "backgroundColor": "#FFFFFF00",
+                "borderStyle": "none",
+                "color": "2B2B2B",
+                "margin": 5
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          },
+          {
+            "meta": {
+              "name": "label"
+            },
+            "position": {
+              "basis": "683px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.fullPath"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\tpath \u003d value.split(\u0027/\u0027)\n\treturn path[len(path)-1]",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "color": "2B2B2B",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "textAlign": "center"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\tself.view.custom.isCollapsed \u003d not(self.view.custom.isCollapsed)"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnCollapse",
+              "tooltip": {
+                "text": "Collapse"
+              }
+            },
+            "position": {
+              "basis": "60px"
+            },
+            "propConfig": {
+              "props.image.icon.path": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.isCollapsed"
+                  },
+                  "transforms": [
+                    {
+                      "fallback": null,
+                      "inputType": "scalar",
+                      "mappings": [
+                        {
+                          "input": true,
+                          "output": "material/keyboard_arrow_up"
+                        },
+                        {
+                          "input": false,
+                          "output": "material/keyboard_arrow_down"
+                        }
+                      ],
+                      "outputType": "scalar",
+                      "type": "map"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "image": {
+                "icon": {}
+              },
+              "primary": false,
+              "style": {
+                "backgroundColor": "#FFFFFF00",
+                "borderStyle": "none",
+                "color": "2B2B2B",
+                "margin": 5
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "50px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.style.backgroundColor": {
+            "binding": {
+              "config": {
+                "path": "view.custom.Online"
+              },
+              "transforms": [
+                {
+                  "fallback": "#D1EC0E",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#04D182"
+                    },
+                    {
+                      "input": false,
+                      "output": "#FF6B72"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "boxShadow": "0px 2px 4px #808080"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "lblOnline"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.Online"
+                  },
+                  "type": "property"
+                }
+              },
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "fullPath": "{view.params.fullPath}\t"
+                    },
+                    "tagPath": "{fullPath}/Node Info/Online DateTime"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \"Online Since: \" + str(value)",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "overflow": "visible"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "lblOffline"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "expression": "!{view.custom.Online}"
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "fullPath": "{view.params.fullPath}"
+                    },
+                    "tagPath": "{fullPath}/Node Info/Offline DateTime"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \"Offline Since: \" + str(value)",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "overflow": "visible"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_0"
+        },
+        "position": {
+          "basis": "31px"
+        },
+        "props": {
+          "alignItems": "center",
+          "direction": "column",
+          "style": {
+            "marginTop": 10,
+            "overflow": "visible"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "FlexRepeater"
+        },
+        "position": {
+          "grow": 1
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "!{view.custom.isCollapsed}"
+              },
+              "type": "expr"
+            }
+          },
+          "props.instances": {
+            "binding": {
+              "config": {
+                "path": "view.custom.Loads"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "alignItems": "flex-start",
+          "elementPosition": {
+            "basis": 450,
+            "grow": 0
+          },
+          "elementStyle": {
+            "margin": 10
+          },
+          "justify": "center",
+          "path": "Templates/DeviceWrapper",
+          "style": {
+            "marginTop": 15
+          },
+          "useDefaultViewWidth": false,
+          "wrap": "wrap"
+        },
+        "type": "ia.display.flex-repeater"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "props.style.borderColor": {
+        "binding": {
+          "config": {
+            "path": "view.custom.Online"
+          },
+          "transforms": [
+            {
+              "fallback": "#D1EC0E",
+              "inputType": "scalar",
+              "mappings": [
+                {
+                  "input": true,
+                  "output": "#04C278"
+                },
+                {
+                  "input": false,
+                  "output": "#FF6B72"
+                }
+              ],
+              "outputType": "scalar",
+              "type": "map"
+            }
+          ],
+          "type": "property"
+        }
+      }
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderStyle": "solid",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "boxShadow": "2px 2px 5px #5F6467",
+        "margin": 10
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

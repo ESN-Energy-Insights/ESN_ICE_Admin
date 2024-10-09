@@ -1,0 +1,247 @@
+{
+  "custom": {
+    "value": 11159.898
+  },
+  "params": {
+    "fontSize": 12,
+    "label": "Label",
+    "labelAlign": "right",
+    "labelWidth": "50%",
+    "scale": 1,
+    "tagPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor1/EMUData/Totals/Power/Total_TruePower_W"
+  },
+  "propConfig": {
+    "custom.value": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "indirect",
+          "references": {
+            "tagPath": "{view.params.tagPath}"
+          },
+          "tagPath": "{tagPath}"
+        },
+        "type": "tag"
+      },
+      "persistent": true
+    },
+    "params.fontSize": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.label": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.labelAlign": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.labelWidth": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.scale": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tagPath": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 68,
+      "width": 597
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "propConfig": {
+          "position.basis": {
+            "binding": {
+              "config": {
+                "path": "view.params.labelWidth"
+              },
+              "type": "property"
+            }
+          },
+          "props.style.fontSize": {
+            "binding": {
+              "config": {
+                "path": "view.params.fontSize"
+              },
+              "type": "property"
+            }
+          },
+          "props.style.textAlign": {
+            "binding": {
+              "config": {
+                "path": "view.params.labelAlign"
+              },
+              "type": "property"
+            }
+          },
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.label"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "borderBottomColor": "#D5D5D5",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "fontWeight": "bold",
+            "paddingRight": 10
+          },
+          "textStyle": {
+            "overflowWrap": "break-word"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "0%"
+        },
+        "props": {
+          "style": {
+            "borderColor": "#AAAAAA",
+            "borderStyle": "solid",
+            "borderWidth": 1
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "Value"
+        },
+        "position": {
+          "basis": "10%",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.style.fontSize": {
+            "binding": {
+              "config": {
+                "path": "view.params.fontSize"
+              },
+              "type": "property"
+            }
+          },
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "round({view.custom.value} / {view.params.scale}, 2)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "borderBottomColor": "#D5D5D5",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "fontWeight": "normal",
+            "overflow": "visible",
+            "paddingLeft": 10,
+            "textAlign": "left"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "custom": {
+          "tags": [
+            {}
+          ]
+        },
+        "meta": {
+          "name": "Sparkline"
+        },
+        "position": {
+          "basis": "60%"
+        },
+        "propConfig": {
+          "custom.tags[0].path": {
+            "binding": {
+              "config": {
+                "path": "view.params.tagPath"
+              },
+              "type": "property"
+            }
+          },
+          "props.points": {
+            "binding": {
+              "config": {
+                "aggregate": "MinMax",
+                "avoidScanClassValidation": true,
+                "dateRange": {
+                  "mostRecent": "5",
+                  "mostRecentUnits": "MIN"
+                },
+                "enableValueCache": true,
+                "ignoreBadQuality": false,
+                "polling": {
+                  "enabled": true,
+                  "rate": "30"
+                },
+                "preventInterpolation": false,
+                "returnFormat": "Wide",
+                "returnSize": {
+                  "numRows": "100",
+                  "type": "FIXED"
+                },
+                "tags": "{this.custom.tags}",
+                "valueFormat": "DATASET"
+              },
+              "type": "tag-history"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "borderBottomColor": "#D5D5D5",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "fontWeight": "normal",
+            "overflow": "hidden",
+            "paddingLeft": 10,
+            "textAlign": "left"
+          }
+        },
+        "type": "ia.display.sparkline"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "overflow": "visible"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

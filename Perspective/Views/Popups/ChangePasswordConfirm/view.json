@@ -1,0 +1,323 @@
+{
+  "custom": {
+    "newPassword": null
+  },
+  "params": {
+    "companyname": 2,
+    "email": 1
+  },
+  "propConfig": {
+    "custom.newPassword": {
+      "persistent": true
+    },
+    "params.companyname": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.email": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 235,
+      "width": 476
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "title"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginLeft": 10
+              },
+              "text": "Reset User Password"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\tself.view.custom.newPassword \u003d None\n\tsystem.perspective.closePopup(\"resetUserPassword\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "Button"
+            },
+            "position": {
+              "basis": "34px"
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "color": "#2B2B2B",
+                  "path": "material/close"
+                }
+              },
+              "primary": false,
+              "style": {
+                "margin": 10
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "50px"
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FF8A8A"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "32px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.email"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \"Are you sure you want to reset the password for \" + str(value) + \"?  This action cannot be reversed.\"",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "margin": 10
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "filler"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\n\tself.view.custom.newPassword \u003d ESN.resetUserPassword(self.view.params.email)\n\t\n\t\n\t\n\t#refresh the data\n\t#system.perspective.sendMessage(\"refreshData\")\n\t#system.perspective.closePopup(\"resetUserPassword\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnReset"
+            },
+            "position": {
+              "basis": 50
+            },
+            "props": {
+              "primary": false,
+              "style": {
+                "backgroundColor": "#FF8A8A",
+                "color": "#FFFFFF",
+                "marginLeft": "30%",
+                "marginRight": "30%"
+              },
+              "text": "Reset Password"
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "Body"
+        },
+        "position": {
+          "basis": "50px",
+          "grow": 1
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.custom.newPassword} \u003d None"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "marginBottom": 20
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Desc"
+            },
+            "position": {
+              "basis": "32px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.email"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \"The new password for \" + str(value) + \" has been generated below.  The user may change their password upon login.\"",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "margin": 10
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Desc_0"
+            },
+            "position": {
+              "basis": "32px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.newPassword"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "margin": 10,
+                "textAlign": "center"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\n\t#refresh the data\n\t#system.perspective.sendMessage(\"refreshData\")\n\tsystem.perspective.closePopup(\"resetUserPassword\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnClose"
+            },
+            "position": {
+              "basis": 50
+            },
+            "props": {
+              "style": {
+                "color": "#FFFFFF",
+                "marginLeft": "30%",
+                "marginRight": "30%"
+              },
+              "text": "Close"
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "NewPassword"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.custom.newPassword} !\u003d None"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "marginBottom": 20
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "custom": {
+      "key": "value"
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

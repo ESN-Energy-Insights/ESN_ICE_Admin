@@ -1,0 +1,154 @@
+{
+  "custom": {
+    "companyid": null,
+    "username": null
+  },
+  "params": {
+    "rowData": {}
+  },
+  "propConfig": {
+    "custom.companyid": {
+      "binding": {
+        "config": {
+          "path": "view.params.rowData"
+        },
+        "transforms": [
+          {
+            "code": "\n\treturn value[\u0027companyid\u0027]",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "custom.username": {
+      "binding": {
+        "config": {
+          "path": "view.params.rowData"
+        },
+        "transforms": [
+          {
+            "code": "\treturn value[\u0027username\u0027]",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "params.rowData": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 44,
+      "width": 328
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "draggable": false,
+                "id": "resetUserPassword",
+                "modal": true,
+                "overlayDismiss": false,
+                "resizable": false,
+                "showCloseIcon": false,
+                "type": "open",
+                "viewParams": {
+                  "email": "{view.custom.username}"
+                },
+                "viewPath": "Popups/ChangePasswordConfirm",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "btnReset"
+        },
+        "position": {
+          "basis": "50px",
+          "grow": 1
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "color": "#FFFFFF",
+              "path": "material/settings_backup_restore"
+            }
+          },
+          "primary": false,
+          "style": {
+            "backgroundColor": "#AAAAAA",
+            "color": "#FFFFFF",
+            "margin": 5
+          },
+          "text": "Reset Password"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "draggable": false,
+                "id": "removeCompanyUser",
+                "modal": true,
+                "overlayDismiss": false,
+                "resizable": false,
+                "showCloseIcon": false,
+                "type": "open",
+                "viewParams": {
+                  "companyid": "{view.custom.companyid}",
+                  "email": "{view.custom.username}"
+                },
+                "viewPath": "Popups/RemoveUser",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "btnRemoveUser"
+        },
+        "position": {
+          "basis": "50px",
+          "grow": 1
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "color": "#FFFFFF",
+              "path": "material/delete_forever"
+            }
+          },
+          "primary": false,
+          "style": {
+            "backgroundColor": "#FF8A8A",
+            "color": "#FFFFFF",
+            "margin": 5
+          },
+          "text": "Remove User"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

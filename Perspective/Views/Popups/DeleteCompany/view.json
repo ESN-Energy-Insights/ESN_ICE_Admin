@@ -1,0 +1,194 @@
+{
+  "custom": {},
+  "params": {
+    "companyName": null,
+    "companyid": null
+  },
+  "propConfig": {
+    "params.companyName": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.companyid": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 235,
+      "width": 476
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "title"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginLeft": 10
+              },
+              "text": "Delete Company"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\tsystem.perspective.closePopup(\"deleteCompanyPopup\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "Button"
+            },
+            "position": {
+              "basis": "34px"
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "color": "#2B2B2B",
+                  "path": "material/close"
+                }
+              },
+              "primary": false,
+              "style": {
+                "margin": 10
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "50px"
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FF8A8A"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "32px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.companyName"
+                  },
+                  "transforms": [
+                    {
+                      "code": "\treturn \"Are you sure you want to delete the \u0027\" + str(value) + \"\u0027 company?  This will remove all users from the company as well.\"",
+                      "type": "script"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "margin": 10
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "filler"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\n\tESN.deleteCompany(self.view.params.companyid,self.view.params.companyName)\n\t\n\t#refresh the data\n\tsystem.perspective.sendMessage(\"refreshData\")\n\t\n\tsystem.perspective.closePopup(\"deleteCompanyPopup\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnDelete"
+            },
+            "position": {
+              "basis": 50
+            },
+            "props": {
+              "primary": false,
+              "style": {
+                "backgroundColor": "#FF8A8A",
+                "color": "#FFFFFF",
+                "marginLeft": "30%",
+                "marginRight": "30%"
+              },
+              "text": "Delete Company"
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "Body"
+        },
+        "position": {
+          "basis": "50px",
+          "grow": 1
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "marginBottom": 20
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "custom": {
+      "key": "value"
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

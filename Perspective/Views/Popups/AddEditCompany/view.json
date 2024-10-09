@@ -1,0 +1,385 @@
+{
+  "custom": {},
+  "params": {
+    "companyid": null
+  },
+  "propConfig": {
+    "params.companyid": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 632,
+      "width": 739
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "title"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.companyid"
+                  },
+                  "transforms": [
+                    {
+                      "fallback": "Edit Company",
+                      "inputType": "scalar",
+                      "mappings": [
+                        {
+                          "input": null,
+                          "output": "Add New Company"
+                        }
+                      ],
+                      "outputType": "scalar",
+                      "type": "map"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginLeft": 10
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\tsystem.perspective.closePopup(\"addEditCompany\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "Button"
+            },
+            "position": {
+              "basis": "34px"
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "color": "#2B2B2B",
+                  "path": "material/close"
+                }
+              },
+              "primary": false,
+              "style": {
+                "margin": 10
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": 50
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#000F5D"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "label"
+                },
+                "position": {
+                  "basis": 40
+                },
+                "props": {
+                  "text": "Company Name"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "value"
+                },
+                "position": {
+                  "basis": "100%",
+                  "grow": 1
+                },
+                "props": {
+                  "placeholder": "Enter company name...",
+                  "style": {
+                    "fontSize": 18,
+                    "fontWeight": "normal"
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "CompanyName"
+            },
+            "position": {
+              "basis": 80
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "margin": 10,
+                "marginLeft": 20,
+                "marginRight": 20
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "label"
+                },
+                "position": {
+                  "basis": 40
+                },
+                "props": {
+                  "text": "MQTT Namespace"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "value"
+                },
+                "position": {
+                  "basis": "100%",
+                  "grow": 1
+                },
+                "props": {
+                  "placeholder": "Enter MQTT namespace...",
+                  "style": {
+                    "fontSize": 18,
+                    "fontWeight": "normal"
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "MQTTNamespace"
+            },
+            "position": {
+              "basis": 80
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "margin": 10,
+                "marginLeft": 20,
+                "marginRight": 20
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "label"
+                },
+                "position": {
+                  "basis": 40
+                },
+                "props": {
+                  "text": "MQTT Username"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "value"
+                },
+                "position": {
+                  "basis": "100%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "path": ".../MQTTNamespace/value.props.text"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "enabled": false,
+                  "placeholder": "auto populated...",
+                  "style": {
+                    "fontSize": 18,
+                    "fontWeight": "normal"
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "MQTTUsername"
+            },
+            "position": {
+              "basis": 80
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "margin": 10,
+                "marginLeft": 20,
+                "marginRight": 20
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "label"
+                },
+                "position": {
+                  "basis": 40
+                },
+                "props": {
+                  "text": "MQTT Password"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "value"
+                },
+                "position": {
+                  "basis": "100%",
+                  "grow": 1
+                },
+                "props": {
+                  "placeholder": "Enter MQTT password...",
+                  "style": {
+                    "fontSize": 18,
+                    "fontWeight": "normal"
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "MQTTPassword"
+            },
+            "position": {
+              "basis": 80
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "margin": 10,
+                "marginLeft": 20,
+                "marginRight": 20
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "meta": {
+              "name": "filler"
+            },
+            "position": {
+              "basis": 50,
+              "grow": 1
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\n\tname \u003d self.parent.getChild(\"CompanyName\").getChild(\"value\").props.text\n\ttopic \u003d self.parent.getChild(\"MQTTNamespace\").getChild(\"value\").props.text\n\tusername \u003d topic\n\tpassword \u003d self.parent.getChild(\"MQTTPassword\").getChild(\"value\").props.text\n\tacls \u003d \u0027RW spBv1.0/\u0027+ topic + \u0027/#\u0027\n\t\n\tif self.view.params.companyid \u003d\u003d None:\n\n\t\tESN.addNewCompany(name,topic,username,password,acls)\n\telse:\n\t\tESN.updateCompany(self.view.params.companyid,name,username,password,acls)\n\t\n\t#refresh the data\n\tsystem.perspective.sendMessage(\"refreshData\")\n\t\n\tsystem.perspective.closePopup(\"addEditCompany\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "btnSave"
+            },
+            "position": {
+              "basis": 50
+            },
+            "props": {
+              "primary": false,
+              "style": {
+                "backgroundColor": "#000F5D",
+                "color": "#FFFFFF",
+                "marginLeft": "30%",
+                "marginRight": "30%"
+              },
+              "text": "Save"
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "Body"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "props": {
+          "alignContent": "flex-start",
+          "direction": "column",
+          "style": {
+            "marginBottom": 20
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "custom": {
+      "key": "value"
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

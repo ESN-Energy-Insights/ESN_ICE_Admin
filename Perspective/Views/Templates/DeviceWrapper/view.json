@@ -1,0 +1,92 @@
+{
+  "custom": {
+    "DeviceType": "RIO-EMU-MQTT_v2"
+  },
+  "params": {
+    "fullPath": "[MQTT Engine]Edge Nodes/Opto22/EMK1-0001/Energy/Loads/Compressor1",
+    "typeId": "Energy Monitoring UDTs/RIO-EMU-MQTT_v2"
+  },
+  "propConfig": {
+    "custom.DeviceType": {
+      "binding": {
+        "config": {
+          "path": "view.params.typeId"
+        },
+        "transforms": [
+          {
+            "code": "\treturn value.split(\"/\")[len(value.split(\"/\"))-1]",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "persistent": true
+    },
+    "params.fullPath": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.typeId": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 169,
+      "width": 474
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "320px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.params.fullPath": {
+            "binding": {
+              "config": {
+                "path": "view.params.fullPath"
+              },
+              "type": "property"
+            }
+          },
+          "props.path": {
+            "binding": {
+              "config": {
+                "path": "view.custom.DeviceType"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn \"Templates/DeviceCards/\" + value",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderTopLeftRadius": 15,
+        "borderTopRightRadius": 15,
+        "boxShadow": "2px 2px 5px #5F6467"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

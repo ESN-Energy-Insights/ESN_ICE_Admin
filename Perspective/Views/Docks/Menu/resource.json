@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "thumbnail.png",
+    "view.json"
+  ],
+  "attributes": {
+    "lastModificationSignature": "e62da4a3806457b05f2cb16525489d46a4de7e8704ff1ef1cb8e336fe4b3bcd5",
+    "lastModification": {
+      "actor": "bwm@braemail.us",
+      "timestamp": "2024-02-05T14:53:54Z"
+    }
+  }
+}
