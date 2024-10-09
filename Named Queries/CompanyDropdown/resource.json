@@ -1,0 +1,33 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "Administration",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "f75fdbfcfdc507bebad319fcc67ca5fa43e8d7e1336049dfd2591d320773aa08",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "bwm@braemail.us",
+      "timestamp": "2024-02-08T15:25:28Z"
+    }
+  }
+}

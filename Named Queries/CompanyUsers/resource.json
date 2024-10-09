@@ -1,0 +1,40 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "Administration",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "6c844088aa04cf3ccea94f57e78f8aac3fdf4f5722a1a0ab3cec7083da99a73d",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "bwm@braemail.us",
+      "timestamp": "2024-02-27T19:33:55Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "companyid",
+        "sqlType": 7
+      }
+    ]
+  }
+}
